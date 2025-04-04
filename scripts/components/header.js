@@ -5,7 +5,7 @@ export function renderHeader() {
 const html = `
     <div class="header-container">
         <div class="header-left">
-            <a href="home.html">
+            <a href="index.html">
                 <img class="logo-icon" src="images/icons/logo.png">
             </a>
         </div>
