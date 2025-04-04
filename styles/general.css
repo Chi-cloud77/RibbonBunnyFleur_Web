@@ -1,0 +1,75 @@
+*{
+    font-family: 'LXGW WenKai Mono TC", serif';
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    min-height: 1000px;
+    padding-top:5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right:32px;
+    background-color: #fafafa;
+}
+
+.AboutUs {
+    line-height:250%;
+    margin-left:22.5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+}
+
+.intro{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:5%;
+
+}
+
+.intro li{
+    margin-left:1%;
+    margin:2%;
+}
+
+.container2, .intro{
+    display: flex;
+    flex-direction: row-reverse; /* 讓內容反轉排列 */
+    align-items: center;
+    white-space: nowrap;    /*防止內容自動換行*/
+    gap:10%;    /*.container2 已經設為 display: flex;可以直接用 gap 來調整 img 和 .intro 的距離 */
+}
+
+.container2 img{
+    max-width:100%;
+    width: 20%; /* 設定圖片的寬度*/
+    height: auto; /* 保持圖片的比例 */
+    margin-right:20%;
+    border-width: 1%;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+/* .footer{
+    background-color: #ffffff;
+} */
+
+.image-button{
+    width: 6%;  
+    height: auto;  
+    padding: 0;    
+    border: none;  
+    background: none;
+    cursor: pointer;  
+    margin: -0.3%
+}
+
+ .image-button img {
+    width: 100%;  
+    height: 100%; 
+    display: block; 
+}
