@@ -16,6 +16,11 @@ body{
     background-color: #fafafa;
 }
 
+.pictures{
+    width: 100%;  
+    height: auto;
+}
+
 .AboutUs {
     line-height:250%;
     margin-left:22.5%;
@@ -27,7 +32,6 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left:5%;
-
 }
 
 .intro li{
@@ -40,13 +44,13 @@ body{
     flex-direction: row-reverse; /* 讓內容反轉排列 */
     align-items: center;
     white-space: nowrap;    /*防止內容自動換行*/
-    gap:10%;    /*.container2 已經設為 display: flex;可以直接用 gap 來調整 img 和 .intro 的距離 */
+    gap:10%;    /*調整 img 和 .intro 的距離*/
 }
 
 .container2 img{
     max-width:100%;
-    width: 20%; /* 設定圖片的寬度*/
-    height: auto; /* 保持圖片的比例 */
+    width: 20%; 
+    height: auto; 
     margin-right:20%;
     border-width: 1%;
     border-color: #ffffff;
