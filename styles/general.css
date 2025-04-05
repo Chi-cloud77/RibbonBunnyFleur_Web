@@ -44,6 +44,7 @@ body{
     flex-direction: row-reverse; /* 讓內容反轉排列 */
     align-items: center;
     white-space: nowrap;    /*防止內容自動換行*/
+    margin-left: -5%;
     gap:10%;    /*調整 img 和 .intro 的距離*/
 }
 
